@@ -1,0 +1,36 @@
+{
+  "name": "product",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
+  },
+  "dependencies": {
+    "swiper": "^11.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "prettier": "3.5.2",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-plugin": "^1.0.5"
+  }
+}
